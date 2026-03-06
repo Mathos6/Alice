@@ -1,0 +1,15 @@
+# Jeu du Nombre Proche
+
+## Description
+Un jeu compétitif basé sur la stratégie et l’intuition.  
+Chaque joueur choisit un nombre, et le but est de se rapprocher **d’un objectif calculé à partir des nombres choisis par tous les joueurs**.
+
+## Règles du jeu
+1. Chaque joueur entre un nombre à chaque tour.
+2. Calculer la **moyenne de tous les nombres**, puis la multiplier par `0,8`.
+3. Le joueur dont le nombre est **le plus proche de ce résultat** gagne le tour.
+4. Les joueurs les plus éloignés **perdent entre 3 et 10 points**.
+5. Si tous les joueurs atteignent zéro points, **le dernier joueur encore actif continue le jeu**.
+
+## Objectif
+Accumuler le plus de points possible en anticipant les choix des autres joueurs et rester le dernier joueur avec des points.
